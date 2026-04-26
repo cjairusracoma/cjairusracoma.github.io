@@ -1,2 +1,2 @@
 # cjairusracoma.github.io
-Personal 
+Personal journey and achievements
