@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
 
+<body>
+
+<header class="header">
+  <div class="logo">
+    <h2>{{ site.title }}</h2>
+  </div>
+
+  <nav class="nav">
+    <a href="/">Home</a>
+    <a href="/cv">CV</a>
+    <a href="/publications">Publications</a>
+  </nav>
+</header>
+
+<div class="container">
+  {{ content }}
+</div>
+
+</body>
+</html>
